@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_bc365a064b32a7bff57b5f786af5d63532e45300.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_8be4fced9c29c4336fb888f0970713a731b76363.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_d967d163e8fefbe7904921929d2ce8737c51da60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_267e2eebb51c93ddcc7a94bb0405c20238943ac1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-util-cache/0.4.2-beta1/43e2a81f52600639daeb02ede60cc498a13614a5/jxmpp-util-cache-0.4.2-beta1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="43e2a81f52600639daeb02ede60cc498a13614a5">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/jxmpp-util-cache-0.4.2-beta1_8dd1f59516f9ef003df44ef7629189ade26e4114.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-tcp/4.1.0/b5043991d7ed52da15089fcfcbca1dd862d1af42/smack-tcp-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b5043991d7ed52da15089fcfcbca1dd862d1af42">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/smack-tcp-4.1.0_2681c02e5f8b10263f60f78a9cf3d288e59b984f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_9ae956e270493d4974e05e04abce63638540771f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-resolver-minidns/4.1.0/5b8783270e55f49937492b23df34993c4e51c8d7/smack-resolver-minidns-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5b8783270e55f49937492b23df34993c4e51c8d7">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/smack-resolver-minidns-4.1.0_fbf51f08951e259d74844732f40db2fa517bbd66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_4fd5bb15bfc2a29f5592f229e80a4ff7a0f0863b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_e672df476dffa8e95fbd995caff06fa2e98aea28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_246ce819ac81b7d3fc4b139c4a844d2cf0c81159.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_fcfc3e1852cedff853675307fd3eb23da4e7f50c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/de.measite.minidns/minidns/0.1.7/993582d1455b93a5723d2af4b39d8679735b3550/minidns-0.1.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="993582d1455b93a5723d2af4b39d8679735b3550">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/minidns-0.1.7_2a1feb98650486b3a30a5286ad8ceb0c8cc4103f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-core/0.4.2-beta1/14ade1a89b0f6db4fa481f9f8a721cdec69374de/jxmpp-core-0.4.2-beta1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="14ade1a89b0f6db4fa481f9f8a721cdec69374de">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/jxmpp-core-0.4.2-beta1_04da6f57b9460e86dd61f2fa034db8baa37478d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-extensions/4.1.0/b0968f9b209feb2f51d1a1e72238989271750625/smack-extensions-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b0968f9b209feb2f51d1a1e72238989271750625">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/smack-extensions-4.1.0_b45c3d476da804d1c43ccef7b4b17a9d40e348a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.3/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_02304b066b810726ac8ad9d4f85629b1e6147a0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-core/4.1.0/ad5c17dc5fe7f383118c5a3f1818b8789b697930/smack-core-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ad5c17dc5fe7f383118c5a3f1818b8789b697930">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/smack-core-4.1.0_8a77ea43e9cf4f7e0b445f8b183c2f69dd88e250.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-im/4.1.0/4b6d736ad02f64ba54f4a5712a4a453a2c3848b1/smack-im-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4b6d736ad02f64ba54f4a5712a4a453a2c3848b1">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/smack-im-4.1.0_73620917e2b865ab6576d0b2ba389faeec49b657.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_7ba6ec1fde522debd0ac9fc20bda5d3c1ff8a312.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-android/4.1.0/3da1ad907fe8eb0db80471b8837d3e51690fe13c/smack-android-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3da1ad907fe8eb0db80471b8837d3e51690fe13c">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/smack-android-4.1.0_bfb4d530fc629f4ce6fed2a4243c65614bcb1266.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_32c288fa74a8b15508d604b0cfbcba52bfb2d0f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_9cc20d544b96167f6878f773707103a18cd143e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_acf191bd8093ceb23d8fe4c01579f169231f94e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_454b090719a6274a2fe6ea775cedd0a2731a4dba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_6f00a61d7487fb3c88ac9818eb7694dfca7d86fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_6acfb37912012e359ae8a4f669dc01c3964007f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="01f201f8a16c7438c9ee4c56139d01663f2cb0e4">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.3_d80d2f51a18637079dc936dc5dd670c84c05b034.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_977f21dfdafb5c3f0a97e9e01a590512eb8589ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-sasl-provided/4.1.0/74422a92b7bba8eb633ceecdb017530b67451731/smack-sasl-provided-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="74422a92b7bba8eb633ceecdb017530b67451731">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/smack-sasl-provided-4.1.0_811ab9b6d5f26a7655aed75ba1360c4a6a509ef3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_336316f408f51e3dd61203b544652bb9bf7af85f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_309848e11dd92c834a1600e2849f70f3e314aa4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/ReactNativeChatPoc/react-native-xmpp/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c666b52a2e575ae8dfb712b937abf551e41acd10">
+        <dex dex="/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/pre-dexed/debug/ReactNativeChatPoc-react-native-xmpp-unspecified_4d5a960214309bc4eb3c78e263a920c862abe8e2.jar" />
+    </item>
+
+</items>
