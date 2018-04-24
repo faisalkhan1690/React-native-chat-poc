@@ -33,29 +33,33 @@ export default class App extends Component {
   login(){
     // console.warn("method","login")
     
-    XMPP.trustHosts(['chat.google.com']);
+    XMPP.trustHosts(['192.168.14.75']);
     XMPP.connect(this.state.userEmail,this.state.userPassword);
 
-    XMPP.on('message', (message) => console.warn('MESSAGE:' + JSON.stringify(message)));
-    XMPP.on('iq', (message) => console.warn('IQ:' + JSON.stringify(message)));
-    XMPP.on('presence', (message) => console.warn('PRESENCE:' + JSON.stringify(message)));
+    XMPP.on('message', (message) => {
+        console.warn('MESSAGE:' + message.body);
+        var oldMessage=this.state.recivedMessage;
+        oldMessage=this.state.recivedMessage+"\n Other: "+message.body;
+        this.setState({recivedMessage:oldMessage})
+    });
+  
     XMPP.on('error', (message) => console.warn('ERROR:' + message));
     XMPP.on('loginError', (message) => console.warn('LOGIN ERROR:' + message));
     XMPP.on('login', (message) => console.warn('LOGGED!'));
     XMPP.on('connect', (message) => console.warn('CONNECTED!'));
     XMPP.on('disconnect', (message) => console.warn('DISCONNECTED!'));
-
   }
 
 
   logout(){
-    // console.warn("method","logout")
     XMPP.disconnect();
     XMPP.removeListeners();
   }
   sendMessage(){
-    // console.warn("method","sendMessage")
-    XMPP.message(this.state.chatMessage, "damini@192.168.14.75");
+    var oldMessage=this.state.recivedMessage;
+    oldMessage=this.state.recivedMessage+"\n You:  "+this.state.chatMessage;
+    this.setState({recivedMessage:oldMessage})
+    XMPP.message(this.state.chatMessage, "swapnil@192.168.15.97");
   }
 
   render() {
