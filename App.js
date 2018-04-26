@@ -11,7 +11,8 @@ import {
   StyleSheet,
   Text,
   View,
-  TextInput
+  TextInput,
+  ScrollView
 } from 'react-native';
 
 
@@ -114,9 +115,11 @@ export default class App extends Component {
         <Text style={styles.titleText}>
           Received Message
         </Text>
-        <Text>
-          {this.state.recivedMessage}
-        </Text>
+        <ScrollView style={{flex:1}}>
+          <Text >
+            {this.state.recivedMessage}
+          </Text>
+        </ScrollView>
             
       </View>
     );
@@ -126,6 +129,7 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     padding: 20,
+    flex:1
   },
   inputField:{
     borderColor: 'gray',
@@ -145,6 +149,5 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
   }
-
   
 });
