@@ -23,17 +23,19 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      userEmail: 'tarun@192.168.14.75',
+      userEmail: 'tarun@storm-devdb.zoylo.com',
       userPassword:'tarun',
+      receiver:'swapnil@storm-devdb.zoylo.com',
       chatMessage:'Hello web',
       recivedMessage:'Recived message will visibile here'
     };
   }
   
   login(){
+    // console.disableYellowBox = true;
     // console.warn("method","login")
     
-    XMPP.trustHosts(['192.168.14.75']);
+    XMPP.trustHosts(['storm-devdb.zoylo.com']);
     XMPP.connect(this.state.userEmail,this.state.userPassword);
 
     XMPP.on('message', (message) => {
@@ -59,7 +61,12 @@ export default class App extends Component {
     var oldMessage=this.state.recivedMessage;
     oldMessage=this.state.recivedMessage+"\n You:  "+this.state.chatMessage;
     this.setState({recivedMessage:oldMessage})
-    XMPP.message(this.state.chatMessage, "swapnil@192.168.15.97");
+    if(!XMPP.isConnected){
+      alert("You are not logged in. Please login first")
+    }else{
+      XMPP.message(this.state.chatMessage, this.state.receiver);
+    }
+    
   }
 
   render() {
@@ -87,6 +94,10 @@ export default class App extends Component {
             margin='10'
             title="Logout"/>
         </View>
+
+        <TextInput style={styles.inputField}
+          onChangeText={(text) => this.setState({receiver:text})}
+          value={this.state.receiver}/>
 
          <TextInput style={styles.inputChatField}
             onChangeText={(text) => this.setState({chatMessage:text})}
