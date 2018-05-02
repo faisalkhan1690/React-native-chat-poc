@@ -25,102 +25,117 @@ export default class App extends Component {
     super(props);
     this.state = {
       userEmail: 'tarun@storm-devdb.zoylo.com',
-      userPassword:'tarun',
-      receiver:'swapnil@storm-devdb.zoylo.com',
-      chatMessage:'Hello web',
-      recivedMessage:'Recived message will visibile here'
+      userPassword: 'tarun',
+      receiver: 'swapnil@storm-devdb.zoylo.com',
+      chatMessage: 'Hello web',
+      recivedMessage: 'Recived message will visibile here'
     };
   }
-  
-  login(){
+
+  login() {
     // console.disableYellowBox = true;
     // console.warn("method","login")
-    
-    XMPP.trustHosts(['storm-devdb.zoylo.com']);
-    XMPP.connect(this.state.userEmail,this.state.userPassword);
+
+    //XMPP.trustHosts(['storm-devdb.zoylo.com']);
+    XMPP.connect(this.state.userEmail, this.state.userPassword);
 
     XMPP.on('message', (message) => {
-        console.warn('MESSAGE:' + message.body);
-        var oldMessage=this.state.recivedMessage;
-        oldMessage=this.state.recivedMessage+"\n Other: "+message.body;
-        this.setState({recivedMessage:oldMessage})
+      console.warn('MESSAGE:' + message.body);
+      var oldMessage = this.state.recivedMessage;
+      oldMessage = this.state.recivedMessage + "\n Other: " + message.body;
+      this.setState({ recivedMessage: oldMessage })
     });
-  
+
     XMPP.on('error', (message) => console.warn('ERROR:' + message));
     XMPP.on('loginError', (message) => console.warn('LOGIN ERROR:' + message));
     XMPP.on('login', (message) => console.warn('LOGGED!'));
     XMPP.on('connect', (message) => console.warn('CONNECTED!'));
     XMPP.on('disconnect', (message) => console.warn('DISCONNECTED!'));
+    XMPP.on('iq', (message) => console.log('IQ:' + JSON.stringify(message)));
+    XMPP.on('presence', (message) => console.log('PRESENCE:' + JSON.stringify(message)));
+    
+    // XMPP.message(this.state.chatMessage, this.state.receiver);
+   // var x = XMPP.fetchRoster('tarun@storm-devdb.zoylo.com')
+    // XMPP.presence('tarun@storm-devdb.zoylo.com',"string")
+    //console.warn("here",x)
+    // var a = XMPP.fetchRoster()
+    // XMPP.
+    //console.warn(a)
   }
 
 
-  logout(){
+  logout() {
     XMPP.disconnect();
+    
     XMPP.removeListeners();
   }
-  sendMessage(){
-    var oldMessage=this.state.recivedMessage;
-    oldMessage=this.state.recivedMessage+"\n You:  "+this.state.chatMessage;
-    this.setState({recivedMessage:oldMessage})
-    if(!XMPP.isConnected){
+  sendMessage() {
+    var oldMessage = this.state.recivedMessage;
+    oldMessage = this.state.recivedMessage + "\n You:  " + this.state.chatMessage;
+    this.setState({ recivedMessage: oldMessage })
+    if (!XMPP.isConnected) {
       alert("You are not logged in. Please login first")
-    }else{
+    } else {
       XMPP.message(this.state.chatMessage, this.state.receiver);
     }
-    
+    // XMPP.presence("tarun@storm-devdb.zoylo.com","available")
+    // XMPP.fetchRoster()
+    // console.log("here",XMPP.fetchRoster())
+    XMPP.getPresence(this.state.receiver)
+
   }
 
   render() {
     return (
       <View style={styles.container}>
         <TextInput style={styles.inputField}
-        onChangeText={(text) => this.setState({userEmail:text})}
-        value={this.state.userEmail}/>
+          onChangeText={(text) => this.setState({ userEmail: text })}
+          value={this.state.userEmail} />
 
         <TextInput style={styles.inputField}
-        onChangeText={(text) => this.setState({userPassword:text})}
-        value={this.state.userPassword}/>
+          onChangeText={(text) => this.setState({ userPassword: text })}
+          value={this.state.userPassword} />
 
         <View style={styles.marginButton}>
           <Button
-              onPress={() =>this.login()}
-              color='#841584'
-              margin='10'
-              title="Login"/>
-        </View>
-        <View style={styles.marginButton}>
-        <Button
-            onPress={() =>this.logout()}
+            onPress={() => this.login()}
             color='#841584'
             margin='10'
-            title="Logout"/>
+            title="Login" />
+        </View>
+        <View style={styles.marginButton}>
+          <Button
+            onPress={() => this.logout()}
+            color='#841584'
+            margin='10'
+            title="Logout" />
         </View>
 
         <TextInput style={styles.inputField}
-          onChangeText={(text) => this.setState({receiver:text})}
-          value={this.state.receiver}/>
+          onChangeText={(text) => this.setState({ receiver: text })}
+          value={this.state.receiver} />
 
-         <TextInput style={styles.inputChatField}
-            onChangeText={(text) => this.setState({chatMessage:text})}
-            value={this.state.chatMessage}/>
+        <TextInput style={styles.inputChatField}
+          onChangeText={(text) => this.setState({ chatMessage: text })}
+          value={this.state.chatMessage} />
 
-         <View style={styles.marginButton}>
-           <Button
-            onPress={() =>this.sendMessage()}
+        <View style={styles.marginButton}>
+          <Button
+            onPress={() => this.sendMessage()}
             color='#841584'
             margin='10'
-            title="Send Message"/>
+            title="Send Message" />
         </View>
 
         <Text style={styles.titleText}>
           Received Message
         </Text>
-        <ScrollView style={{flex:1}}>
+        <ScrollView style={{ flex: 1 }}>
           <Text >
             {this.state.recivedMessage}
           </Text>
         </ScrollView>
-            
+
       </View>
     );
   }
@@ -129,17 +144,17 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     padding: 20,
-    flex:1
+    flex: 1
   },
-  inputField:{
+  inputField: {
     borderColor: 'gray',
-    marginTop:10,
+    marginTop: 10,
     borderWidth: 1
   },
 
-  inputChatField:{
+  inputChatField: {
     borderColor: 'gray',
-    marginTop:30,
+    marginTop: 30,
     borderWidth: 1
   },
   marginButton: {
@@ -149,5 +164,5 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
   }
-  
+
 });

@@ -2,5 +2,9 @@
     {
         "merged": "/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
         "source": "/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/shashanksrivastava/Desktop/React-native-chat-poc/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/shashanksrivastava/Desktop/React-native-chat-poc/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]

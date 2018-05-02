@@ -2,5 +2,9 @@
     {
         "merged": "/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/home/user/Work/my_react_natve /ReactNativeChatPoc/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.3/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/shashanksrivastava/Desktop/React-native-chat-poc/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/shashanksrivastava/Desktop/React-native-chat-poc/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.3/res/xml/preferences.xml"
     }
 ]
